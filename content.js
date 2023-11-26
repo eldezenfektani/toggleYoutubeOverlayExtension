@@ -52,7 +52,7 @@ function toggleProgressBar() {
   chrome.storage.sync.set({ progressBarVisible: progressBarVisible });
 }
 
-var checkInterval = setInterval(waitForVideoLoad, 2000);
+var checkInterval = setInterval(waitForVideoLoad, 3500);
 function waitForVideoLoad() {
   for (let index = 0; index < elements.length; index++) {
     if (document.querySelector("." + elements[index].name)) {
