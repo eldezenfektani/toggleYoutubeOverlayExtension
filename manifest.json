@@ -8,11 +8,10 @@
       "48": "logo-128.png",
       "128": "logo-128.png"
     },
-    "permissions": ["activeTab", "storage", "tabs"],
+    "permissions": ["storage", "tabs"],
     "background": {
       "service_worker": "background.js"
     },
-    "host_permissions": ["https://www.youtube.com/*"],
     "action": {
       "default_popup": "popup.html"
     },
