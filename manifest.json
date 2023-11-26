@@ -1,8 +1,13 @@
 {
     "manifest_version": 3,
-    "name": "Video Overlay Toggle",
+    "name": "Youtube Overlay Toggle",
     "version": "1.0",
     "description": "Toggle the visiblity of YouTube video overlays, including media buttons, progress bar, title and more...",
+    "icons": {
+      "16": "logo-128.png",
+      "48": "logo-128.png",
+      "128": "logo-128.png"
+    },
     "permissions": ["activeTab", "storage", "tabs"],
     "background": {
       "service_worker": "background.js"
