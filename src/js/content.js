@@ -53,7 +53,6 @@ function toggleProgressBar() {
 }
 
 function waitForVideo() {
-  console.log("1");
   var video = document.querySelector('.video-stream.html5-main-video');
   if (video) {
     video.oncanplay = function () {
