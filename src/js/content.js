@@ -52,20 +52,21 @@ function toggleProgressBar() {
   chrome.storage.sync.set({ progressBarVisible: progressBarVisible });
 }
 
-var checkInterval = setInterval(waitForVideoLoad, 3500);
-function waitForVideoLoad() {
-  for (let index = 0; index < elements.length; index++) {
-    if (document.querySelector("." + elements[index].name)) {
-      if (index === elements.length - 1) {
-        toggleOverlay();
-        toggleProgressBar();
-        clearInterval(checkInterval);
-      }
+function waitForVideo() {
+  console.log("1");
+  var video = document.querySelector('.video-stream.html5-main-video');
+  if (video) {
+    video.oncanplay = function () {
+      toggleOverlay();
+      toggleProgressBar();
     }
+  }
+  else {
+    requestAnimationFrame(waitForVideo);
   }
 }
 
-document.addEventListener('yt-navigate-finish', waitForVideoLoad)
+document.addEventListener('yt-navigate-finish', waitForVideo);
 
 // Key Listener
 document.addEventListener('keydown', function (event) {
