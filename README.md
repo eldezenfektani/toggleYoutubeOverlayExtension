@@ -18,5 +18,5 @@ You can also use the UI buttons in the extension popup for these actions.
 
 ## Install
 
-Tested on Google Chrome, Microsoft Edge and Brave
-<p align="left"><a rel="noreferrer noopener" href="https://chromewebstore.google.com/detail/youtube-overlay-toggle/ggcefnpcnfidllcfffggcignmfniefgh"><img alt="Chrome Web Store" width=20% height=20% src="https://img.shields.io/badge/Chrome-141e24.svg?&style=for-the-badge&logo=google-chrome&logoColor=white"></a>
+Tested on Google Chrome, Microsoft Edge, Brave and Firefox
+<p align="left"><a rel="noreferrer noopener" href="https://chromewebstore.google.com/detail/youtube-overlay-toggle/ggcefnpcnfidllcfffggcignmfniefgh"><img alt="Chrome Web Store" width=20% height=20% src="https://img.shields.io/badge/Chrome-141e24.svg?&style=for-the-badge&logo=google-chrome&logoColor=white"></a> <a rel="noreferrer noopener" href="https://addons.mozilla.org/en-US/firefox/addon/youtube-overlay-toggle/"><img alt="Firefox ADD-ONS" width=20% height=20% src="https://img.shields.io/badge/Firefox-141e24.svg?&style=for-the-badge&logo=firefox-browser&logoColor=white"></a>
